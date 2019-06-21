@@ -1,0 +1,29 @@
+
+export function popularWords(a, b) {
+
+    // your code here
+    return undefined;
+}
+
+import * as assert from 'assert';
+console.log('Example:');
+console.log(popularWords('\n'
+ 'When I was One\n'
+ 'I had just begun\n'
+ 'When I was Two\n'
+ 'I was nearly new\n',
+ ['i', 'was', 'three', 'near']));
+
+// These "asserts" are used for self-checking
+assert.deepEqual(popularWords('\n'
+ 'When I was One\n'
+ 'I had just begun\n'
+ 'When I was Two\n'
+ 'I was nearly new\n',
+ ['i', 'was', 'three', 'near']), {'i': 4,
+ 'near': 0,
+ 'three': 0,
+ 'was': 3});
+
+console.log("Coding complete? Click 'Check' to earn cool rewards!");
+    

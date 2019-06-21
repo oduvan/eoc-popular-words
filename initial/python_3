@@ -1,0 +1,25 @@
+def popular_words(a, b):
+    # your code here
+    return None
+
+
+if __name__ == '__main__':
+    print("Example:")
+    print(popular_words('\n'
+ 'When I was One\n'
+ 'I had just begun\n'
+ 'When I was Two\n'
+ 'I was nearly new\n',
+ ['i', 'was', 'three', 'near']))
+
+    # These "asserts" are used for self-checking and not for an auto-testing
+    assert popular_words('\n'
+ 'When I was One\n'
+ 'I had just begun\n'
+ 'When I was Two\n'
+ 'I was nearly new\n',
+ ['i', 'was', 'three', 'near']) == {'i': 4,
+ 'near': 0,
+ 'three': 0,
+ 'was': 3}
+    print("Coding complete? Click 'Check' to earn cool rewards!")
